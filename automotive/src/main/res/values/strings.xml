@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Car Vhal Sample</string>
+    <string name="abs">ABS</string>
+    <string name="coolantTemperature">Coolant temperature</string>
+    <string name="temp_rature_huile_du_moteur" />
+    <string name="tempe_rature_du_liquide_de_refroidissement" />
+    <string name="tempe_rature_huile_du_moteur" />
+    <string name="readEngineOilTemperature">Read engine oil temperature</string>
+    <string name="read_hazard_warning_light_status">Read hazard warning light status</string>
+    <string name="readTirePressure">Read tire pressure</string>
+    <string name="readFuelLevel">Read fuel level</string>
+    <string name="readEVBatterylevel">Read EV battery level</string>
+    <string name="readoutsidetemperature">Read outside temperature</string>
+</resources>

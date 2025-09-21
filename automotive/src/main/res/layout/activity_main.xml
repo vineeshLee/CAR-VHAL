@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_read_abs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abs" />
+
+    <Button
+        android:id="@+id/button_read_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coolantTemperature" />
+
+    <Button
+        android:id="@+id/button_read_oil_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/readEngineOilTemperature" />
+
+    <Button
+        android:id="@+id/button_read_hazard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/read_hazard_warning_light_status" />
+
+    <Button
+        android:id="@+id/button_read_tire_pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/readTirePressure" />
+
+    <Button
+        android:id="@+id/button_read_fuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/readFuelLevel" />
+
+    <Button
+        android:id="@+id/button_read_ev_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/readEVBatterylevel" />
+
+    <Button
+        android:id="@+id/button_read_outside_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/readoutsidetemperature"/>
+
+
+
+
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
